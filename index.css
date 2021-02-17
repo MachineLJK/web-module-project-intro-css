@@ -51,25 +51,73 @@ table {
   }
 body 
 {
-    font-family: 'Roboto Mono';
+    font-family: 'Roboto Mono', monospace;
+    line-height: 1;
     text-align:center;
 }
 .a {
     background-color: #FF764E;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5%;
     color:white;
 }
 .b {
     background-color: #5ED3EB;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5%;
     color:white;
 }
 .c {
     background-color: #FFCD69;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5%;
     color: white;
 }
-h1 {
+.guide h1 {
     font-family: 'Chelsea Market', cursive;
     text-align: center;
+    font-size: 2.5rem;
+    margin-top: 2%;
+    margin-bottom: 2%;
 }
-h3 {
+.guide h3 {
     text-align: center;
+    font-size: 1.15rem;
+    margin: 2%;
+}
+#aboutyosemite {
+  background-color: #DDB9A3;
+  color: white;
+  text-align: center;
+  font-size: 1rem;
+  margin: 5%;
+}
+#aboutfire {
+  display: block;
+    width: 50%;
+    margin: auto;
+}
+#fire {
+    width: 180px;
+    height: 180px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#van {
+    width: 180px;
+    height: 180px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+footer {
+  background: #F9E7DC;
+  margin-bottom: 50px;
+}
+#foot {
+  width: 100%;
 }
