@@ -46,3 +46,30 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+* {
+    box-sizing: border-box;
+  }
+body 
+{
+    font-family: 'Roboto Mono';
+    text-align:center;
+}
+.a {
+    background-color: #FF764E;
+    color:white;
+}
+.b {
+    background-color: #5ED3EB;
+    color:white;
+}
+.c {
+    background-color: #FFCD69;
+    color: white;
+}
+h1 {
+    font-family: 'Chelsea Market', cursive;
+    text-align: center;
+}
+h3 {
+    text-align: center;
+}
